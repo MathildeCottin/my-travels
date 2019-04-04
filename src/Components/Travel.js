@@ -1,19 +1,14 @@
 import React from "react"
-import logo from '../logo.svg';
-
 import "./Travel.css"
 
 const Travel = ({destination, country, photo, distance }) => {
     return (
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <p>
-         <ul>
-         <li>destination: {destination} </li>
-         <li>country: {country}</li> 
-         <li><img src={photo} ></img></li>
-         <li>distance: {distance}</li>
-         </ul>
+         <h2>destination: {destination} </h2>
+         <h2>country: {country}</h2> 
+         <h2><img src={photo} ></img></h2>
+         <h2>distance: {distance}</h2>
 
 
           </p>
